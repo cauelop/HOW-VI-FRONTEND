@@ -44,7 +44,7 @@ export const Botoes = styled.header`
 `;
 
 export const ImagemLogo = styled.img`
-width: 80px;
+width: 110px;
 height: auto;
 cursor: pointer;
 `;

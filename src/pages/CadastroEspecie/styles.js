@@ -37,7 +37,7 @@ export const Content = styled.div`
   padding: 20px;
   border-radius: 5px;
   overflow-y: auto;
-  margin-top: 130px;
+  margin-top: 10px;
 `;
 
 export const Label = styled.label`

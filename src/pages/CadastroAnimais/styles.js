@@ -14,7 +14,6 @@ export const Container = styled.div`
 
 export const ActualPage = styled.div`
   width: 100%;
-  height: 85vh;
   max-height: 85vh;
   display: flex;
   background-color: #f0f2f5;
@@ -37,7 +36,7 @@ export const Content = styled.div`
   padding: 20px;
   border-radius: 5px;
   overflow-y: auto;
-  margin-top: 300px;
+  margin-top: 10px;
 `;
 
 export const Label = styled.label`
@@ -49,4 +48,15 @@ export const Label = styled.label`
 export const LabelError = styled.label`
   font-size: 14px;
   color: red;
+`;
+
+export const Option = styled.option`
+  outline: none;
+  padding: 16px 20px;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 16px;
+
+  background-color: #f0f2f5;
+  border: none;
 `;

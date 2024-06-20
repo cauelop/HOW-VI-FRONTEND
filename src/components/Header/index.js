@@ -14,12 +14,12 @@ const Header = ({ Type = "header" }) => {
 
   return (
     <C.Header type={Type}>
-      <C.ImagemLogo src={logoImage} alt="Logo" onClick={() => {navigate("/Adote");}} />
+      <C.ImagemLogo src={logoImage} alt="Logo" onClick={() => {navigate("/ListaAnimais");}} />
       <C.ContainerDireita>
         {userName ? (
           <>
             <C.TextNome>{userName} </C.TextNome>
-            <Button Text="Sair" onClick={() => { signOut(); navigate("/Adote");}}>
+            <Button Text="Sair" onClick={() => { signOut(); navigate("/ListaAnimais");}}>
               Sair
             </Button>
           </>

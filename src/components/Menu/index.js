@@ -8,17 +8,13 @@ const Menu = ({ Type = "menu" }) => {
   return (
     <C.Menu type={Type}>
       <C.Grupo>
-        <C.MenuItem onClick={() => { navigate("/Resgate");}}>Resgate</C.MenuItem>
-        <C.MenuItem onClick={() => { navigate("/Adote");}}>Adote</C.MenuItem>
-        <C.MenuItem onClick={() => { navigate("/Doe");}}>Doe</C.MenuItem>
-        <C.MenuItem onClick={() => { navigate("/Contribua");}}>Contribua</C.MenuItem>
+        <C.MenuItem onClick={() => { navigate("/CadastroEspecie");}}>Cadastro de Espécies</C.MenuItem>
+        <C.MenuItem onClick={() => { navigate("/CadastroAnimais");}}>Cadastro de Animais</C.MenuItem>
+        <C.MenuItem onClick={() => { navigate("/ListaAnimais");}}>Lista de Animais</C.MenuItem>
+       
       </C.Grupo>
       <C.Grupo>
         <C.Contato>
-          sospets.ong@gmail.com
-          48-99999-9999
-          Florianópolis
-          SC
         </C.Contato>
       </C.Grupo>
     </C.Menu>

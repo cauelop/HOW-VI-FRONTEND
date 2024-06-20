@@ -27,6 +27,7 @@ export const Label = styled.label`
   font-size: 18px;
   font-weight: 700;
   color: black;
+  margin-top: 0px;
 `;
 
 export const Content = styled.div`
@@ -39,6 +40,7 @@ export const Content = styled.div`
   border-radius: 5px;
   width: 99%;
   height: 98%;
+
 `;
 
 export const Botoes = styled.div`

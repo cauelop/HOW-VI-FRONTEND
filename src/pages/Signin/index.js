@@ -41,7 +41,7 @@ const Signin = () => {
         loginInfo.cidade,
         loginInfo.id,
       );
-      navigate("/adote");
+      navigate("/ListaAnimais");
     }
 
     if (axiosError) {

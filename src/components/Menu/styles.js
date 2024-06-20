@@ -29,7 +29,7 @@ export const MenuItem = styled.a`
   margin-bottom: 10px;
   transition: background-color 0.3s ease;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: bold;
   text-align: center;
   
